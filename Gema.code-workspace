@@ -1,4 +1,10 @@
 {
+	"python.pythonPath": "${workspaceFolder}/p3env/bin/python",
+	"terminal.integrated.env.osx": {
+		"VIRTUAL_ENV": "${workspaceFolder}/p3env",
+		"PATH": "${workspaceFolder}/p3env/bin:${env:PATH}"
+	},
+	"terminal.integrated.shellArgs.osx": ["-l"],
 	"folders": [
 		{
 			"path": "."
